@@ -40,3 +40,36 @@
     font-size: 20px;
     padding: 20px 25px;
 }
+
+.failures-container {
+    display: flex;
+    gap: 87px;
+    margin: 0 230px;
+    align-items: center;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-description-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failure-description-color {
+    color: #16D887;
+}
