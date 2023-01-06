@@ -41,6 +41,7 @@
     padding: 20px 25px;
 }
 
+/* Failure Section Style */
 .failures-container {
     display: flex;
     gap: 87px;
@@ -72,4 +73,67 @@
 
 .failure-description-color {
     color: #16D887;
+}
+
+/* My Plan Section Style */
+
+.plan-container {
+    display: flex;
+    gap: 60px;
+    margin: 0 230px;
+}
+
+.plan-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.plan1, .plan2, .plan3, .plan4 {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.positive-container {
+    margin: 130px 230px 0 230px;
+    height: 300px;
+    background-image: url('../images/gradient.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.positive {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 59px 617px 147px 64px;
+}
+
+.positive-btn {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+    margin-top: 24px;
 }
