@@ -137,3 +137,56 @@
     padding: 20px 36px;
     margin-top: 24px;
 }
+
+/* Footer Section Style */
+.footer-container {
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    gap: 200px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-title-sub {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    margin-bottom: 31px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.future a{
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.footer-input-email {
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 150px 20px 20px;
+    margin-bottom: 38px;
+}
+
+.btn-footer {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 36px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
