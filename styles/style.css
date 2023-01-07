@@ -118,6 +118,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 8px;
+    background-blend-mode: multiply;
 }
 
 .positive {
@@ -179,7 +180,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     padding: 20px 150px 20px 20px;
-    margin-bottom: 38px;
+    margin-bottom: 10px;
 }
 
 .btn-footer {
